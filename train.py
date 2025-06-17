@@ -18,7 +18,7 @@ tokenizer = AutoTokenizer.from_pretrained("t5-small")
 
 tokens_size = tokenizer.vocab_size
 
-dataset = TranslationDataset(pairs[:50], tokenizer)
+dataset = TranslationDataset(pairs, tokenizer)
 
 
 # params
